@@ -7,6 +7,9 @@
 /**
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
+
+const path = require("path")
+
 exports.createPages = async ({ graphql, actions }) => {
   const {data} = await graphql(`query {propertiesList: allPropertiesJson {
       nodes { slug } 
@@ -20,7 +23,7 @@ exports.createPages = async ({ graphql, actions }) => {
   pagesList.forEach(element => {
     createPage({
       path:  `/property/${element.slug}`,
-      component: require.resolve("./src/templates/propertyDetails.js"),
+      component: path.resolve("./src/templates/propertyDetails.js"),
       context: {slug: element.slug},
       defer: true,
     })
