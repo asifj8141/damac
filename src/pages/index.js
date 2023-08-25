@@ -1,6 +1,4 @@
 import React, {useState, useEffect} from "react"
-// import { useStaticQuery, graphql } from "gatsby"
-
 import { Link, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
