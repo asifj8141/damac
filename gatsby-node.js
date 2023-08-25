@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   pagesList.forEach(element => {
     createPage({
-      path:  `property/${element.slug}`,
+      path:  `/${element.slug}`,
       component: path.resolve("./src/templates/PropertyDetails.js"),
       context: {slug: element.slug},
       defer: true,
