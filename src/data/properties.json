@@ -2,7 +2,7 @@
     "id": 1,
     "title": "OFFPLAN - APARTMENT",
     "slug": "abudhabi-apartment",
-    "price": 550,
+    "price": 1355400,
     "location": "Canal Crown Business Bay - Dubai",
     "featuredImage": "https://images.pexels.com/photos/751268/pexels-photo-751268.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     "images":["https://images.pexels.com/photos/6969831/pexels-photo-6969831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","https://images.pexels.com/photos/6438752/pexels-photo-6438752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","https://images.pexels.com/photos/3068519/pexels-photo-3068519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/1638341/pexels-photo-1638341.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/8506437/pexels-photo-8506437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/2343466/pexels-photo-2343466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"],
@@ -16,10 +16,10 @@
     "goldenVisa": false,
     "dateAdded":1692911421000
 },{
-    "id": 1,
+    "id": 2,
     "title": "OFFPLAN - APARTMENT",
     "slug": "dubai-marina-apartment",
-    "price": 251,
+    "price": 112570,
     "location": "Canal Crown Business Bay - Dubai",
     "featuredImage": "https://images.pexels.com/photos/8506437/pexels-photo-8506437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 "images":["https://images.pexels.com/photos/3068519/pexels-photo-3068519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/1638341/pexels-photo-1638341.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/8506437/pexels-photo-8506437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
@@ -36,10 +36,10 @@
     "siteId":"AYK3CG/755/9826",
     "status":"Off-Plan"
 },{
-    "id": 1,
+    "id": 3,
     "title": "OFFPLAN - APARTMENT",
     "slug": "dubai-downtown-apartment",
-    "price": 350,
+    "price": 484350,
     "location": "Canal Crown Business Bay - Dubai",
     "featuredImage": "https://images.pexels.com/photos/6969831/pexels-photo-6969831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     "images":["https://images.pexels.com/photos/6969831/pexels-photo-6969831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","https://images.pexels.com/photos/6438752/pexels-photo-6438752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","https://images.pexels.com/photos/3068519/pexels-photo-3068519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/1638341/pexels-photo-1638341.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/8506437/pexels-photo-8506437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/2343466/pexels-photo-2343466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"],
@@ -49,7 +49,41 @@
     "bedRooms":3,
     "area":3000,
     "condition":"Unfurnished",
-    "handoverDt":"12/31/2024",
+    "handoverDt":"12/01/2024",
+    "dateAdded":169291221000
+},
+{
+    "id": 4,
+    "title": "Paramonunt Hotels",
+    "slug": "paramount-apartment",
+    "price": 474200,
+    "location": "Marina - Dubai",
+    "featuredImage": "https://v.fastcdn.co/u/a43967b2/62257012-0-Group-185.jpg",
+    "images":["https://v.fastcdn.co/u/a43967b2/62257012-0-Group-185.jpg","https://images.pexels.com/photos/6438752/pexels-photo-6438752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","https://images.pexels.com/photos/3068519/pexels-photo-3068519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/1638341/pexels-photo-1638341.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/8506437/pexels-photo-8506437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/2343466/pexels-photo-2343466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"],
+    "phone": "+971509873451",
+    "whatsApp": "0971509873451",
+    "email": "theasifhere@outlook.com",
+    "bedRooms":4,
+    "area":4000,
+    "condition":"Unfurnished",
+    "handoverDt":"31/08/2023",
+    "dateAdded":169291221000
+},
+{
+    "id": 5,
+    "title": "Paramonunt Hotels",
+    "slug": "cavalli-apartment",
+    "price": 9802000,
+    "location": "Cavalli - Apartments",
+    "featuredImage": "https://v.fastcdn.co/u/a43967b2/62257057-0-Group-505.jpg",
+    "images":["https://v.fastcdn.co/u/a43967b2/62257057-0-Group-505.jpg","https://images.pexels.com/photos/6438752/pexels-photo-6438752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","https://images.pexels.com/photos/3068519/pexels-photo-3068519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/1638341/pexels-photo-1638341.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/8506437/pexels-photo-8506437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/2343466/pexels-photo-2343466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"],
+    "phone": "+971509873451",
+    "whatsApp": "0971509873451",
+    "email": "theasifhere@outlook.com",
+    "bedRooms":3,
+    "area":1000,
+    "condition":"Furnished",
+    "handoverDt":"24/03/2025",
     "dateAdded":169291221000
 }
 ]

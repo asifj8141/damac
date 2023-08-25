@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from "../components/layout"
 import { Link, graphql } from "gatsby"
+import Seo from "../components/seo"
 
 function PropertyDetails({data}) {
     const {propertiesJson: property} = data;
@@ -39,7 +40,7 @@ function PropertyDetails({data}) {
     </Layout>
   )
 }
-
+export const Head = () => <Seo title={'DAMAC Properties'} />
 export const query = graphql `query 
     Property($slug: String){
         propertiesJson(slug: {eq: $slug}) {
