@@ -82,7 +82,7 @@ const IndexPage = ({data}) => {
       </div>
 
         <div className="flex justify-end">
-          <div className="right-0 border border-gray-200 rounded p-3 w-[160px]">
+          <div className="right-0 border border-gray-200 rounded p-3 w-[170px]">
             <span className="mr-1">Sort By: </span>
             <select onChange={(e)=>updateFilters('sortKey', e.target.value)}>
               <option value="dateAdded">Recent</option>
