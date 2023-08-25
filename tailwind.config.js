@@ -9,11 +9,12 @@ module.exports = {
       colors:  {
         transparent: 'transparent',
         current: 'currentColor',
-        damac:'#e6d29c'
+        damac:'#c1a661'
       },
     },
     
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 
