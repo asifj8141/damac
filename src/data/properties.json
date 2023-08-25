@@ -22,7 +22,7 @@
     "price": 251,
     "location": "Canal Crown Business Bay - Dubai",
     "featuredImage": "https://images.pexels.com/photos/8506437/pexels-photo-8506437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    "images":["https://images.pexels.com/photos/6969831/pexels-photo-6969831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","https://images.pexels.com/photos/6438752/pexels-photo-6438752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","https://images.pexels.com/photos/3068519/pexels-photo-3068519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/1638341/pexels-photo-1638341.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/8506437/pexels-photo-8506437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/2343466/pexels-photo-2343466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"],
+"images":["https://images.pexels.com/photos/3068519/pexels-photo-3068519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/1638341/pexels-photo-1638341.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/8506437/pexels-photo-8506437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
     "phone": "+971 50 987 3451",
     "whatsApp": "+971 50 987 3451",
     "email": "theasifhere@outlook.com",
@@ -31,7 +31,10 @@
     "condition":"Furnished",
     "handoverDt":"12/31/2024",
     "goldenVisa": true,
-    "dateAdded":169291321000
+    "dateAdded":169291321000,
+    "shortDescription":"Resdential VILLA FOR SALE IN DAMAC LAGOONS, DUBAI LAND, UAE",
+    "siteId":"AYK3CG/755/9826",
+    "status":"Off-Plan"
 },{
     "id": 1,
     "title": "OFFPLAN - APARTMENT",
