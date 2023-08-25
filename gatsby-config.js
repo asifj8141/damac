@@ -18,7 +18,6 @@ module.exports = {
     'gatsby-plugin-postcss',
     `gatsby-plugin-image`,
     `gatsby-transformer-json`,
-    `gatsby-plugin-apollo`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

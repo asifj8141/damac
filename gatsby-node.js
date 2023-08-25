@@ -10,22 +10,31 @@
 
 const path = require("path")
 
-exports.createPages = async ({ graphql, actions }) => {
-  const {data} = await graphql(`query {propertiesList: allPropertiesJson {
+exports.createPages = async ({ graphql, actions, reporter }) => {
+
+  const result = await graphql(`query {propertiesList: allPropertiesJson {
       nodes { slug } 
     }
   }`);
 
-  const {nodes: pagesList} = data.propertiesList;
+  if(result.errors){
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+  const {nodes: pagesList} = result.data.propertiesList;
 
   const { createPage } = actions;
 
+  console.log(pagesList);
+
+  const DetailsPageTemplate = path.resolve(`src/templates/PropertyDetails.js`)
+
   pagesList.forEach(element => {
     createPage({
-      path:  `/${element.slug}`,
-      component: path.resolve("./src/templates/PropertyDetails.js"),
+      path:  `/property/${element.slug}`,
+      component: DetailsPageTemplate,
       context: {slug: element.slug},
-      defer: true,
+      // defer: true,
     })
   });
   
